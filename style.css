@@ -60,18 +60,29 @@ body {
   height: 200px;
 }
 
+.edu-box {
+    cursor: pointer;
+    border: 2px solid #00bfa6;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    background-color: #f9f9f9;
+}
+
+.edu-box:hover {
+    background-color: #e6fffa;
+}
+
 .edu-details {
-  margin-top: 10px;
-  display: none;
-  font-weight: normal;
-  color: #333;
-  font-size: 0.95rem;
-  animation: fadeIn 0.3s ease-in-out;
+    display: none;
+    margin-top: 10px;
 }
 
 .edu-box.active .edu-details {
-  display: block;
+    display: block;
 }
+
 
 @keyframes fadeIn {
   from {
