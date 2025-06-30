@@ -4,9 +4,287 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Portfolio</title>
+    <title>Portfolio</title>
 
+    <!-- Bootstrap CDN --><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanket Patil </title>
     <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="futuristic-bg">
+    <!-- Futuristic Animated Shapes -->
+    <div class="floating-shape shape-hex"></div>
+    <div class="floating-shape shape-triangle"></div>
+    <div class="floating-shape shape-bracket"></div>
+    <div class="floating-shape shape-circle"></div>
+    <div class="floating-shape shape-dots"></div>
+    <div class="code-rain"></div>
+
+    <!-- Hero Section: Terminal Intro -->
+    <section class="hero-section glass-card">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-7 mb-4 mb-lg-0">
+                    <div class="terminal-intro">
+                        <span class="terminal-cursor">$</span> <span class="terminal-text">Hello, I'm <span
+                            class="gradient-text">Sanket Patil</span></span><br>
+                        <span class="terminal-cursor">$</span> <span class="terminal-text">Full Stack Developer
+                            </span><br>
+                        <span class="terminal-cursor">$</span> <span class="terminal-text">Welcome to my 
+                            portfolio!</span>
+                    </div>
+                    <div class="socials mt-4">
+                        <a href="https://www.linkedin.com/in/sanket-patil-929917263" class="social-icon"><img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                                alt="LinkedIn" /></a>
+                        <a href="https://wa.me/9529941944" class="social-icon"><img
+                                src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/whatsapp.svg" alt="WhatsApp" /></a>
+                        <a href="https://github.com/sanketsp1405" class="social-icon"><img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                                alt="GitHub" /></a>
+                    </div>
+                </div>
+                <div class="col-lg-5 text-center">
+                    <div class="avatar-glass">
+                        <img src="profile.jpg" alt="Avatar">
+                        <div class="avatar-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SVG Futuristic Divider -->
+    <div class="svg-divider">
+        <svg viewBox="0 0 1440 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0,60 C480,120 960,0 1440,60 L1440,100 L0,100 Z" fill="#181c2f" />
+        </svg>
+    </div>
+
+   
+
+
+    <!-- Animated Code Snippet Cards -->
+    <section class="code-cards-section">
+        <div class="container">
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6">
+                    <div class="code-card glass-card">
+                        <div class="code-card-header">Java Stack</div>
+                        <pre><code>// My favorite stack in Java
+public class StackShowcase {
+    public static void main(String[] args) {
+        String[] stack = {
+            "Java", "Spring Boot", "MySQL", "HTML", "CSS", "JavaScript", "Linux", "Docker", "Git & GitHub"
+        };
+        for (String skill : stack) {
+            System.out.println("🚀 Mastered: " + skill);
+        }
+    }
+}
+                        </code></pre>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="code-card glass-card">
+                        <div class="code-card-header">JavaScript Stack</div>
+                        <pre><code>// My favorite stack
+const stack = [
+  'Java', 'Spring Boot', 'MySQL', 'HTML', 'CSS', 'JavaScript', 'Linux', 'Docker', 'Git & GitHub'
+];
+
+stack.forEach(skill => {
+  console.log(`🚀 Mastered: ${skill}`);
+});
+                        </code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section glass-card">
+        <div class="container">
+            <h2 class="section-title gradient-text">Skills</h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="skill-icon"><img src="java.png" alt="Java"></div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="skill-icon"><img src="linux.png" alt="Linux"></div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="skill-icon"><img src="Mysql.png" alt="Mysql"></div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="skill-icon"><img src="Html.png" alt="Html"></div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="skill-icon"><img src="CSS.png" alt="CSS"></div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="skill-icon"><img src="Javascript.png" alt="JavaScript"></div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="skill-icon"><img src="GitHub-Logo.png" alt="GitHub"></div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="skill-icon"><img src="Agile-methodology-user-experience.width-490.png" alt="Agile"></div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="skill-icon"><img src="Docker-Logo-2013.png" alt="Docker"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section">
+        <div class="container">
+            <h2 class="section-title gradient-text">Projects</h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6">
+                    <div class="project-card glass-card">
+                        <h3>Prime Hour</h3>
+                        <p>Premium e-commerce platform for luxury watches. <br><span class="project-stack">HTML, CSS,
+                            JavaScript, Java (Spring Boot), MySQL</span></p>
+                        <a href="https://github.com/sanketsp1405/Watch-Website" class="btn btn-glass">GitHub Link</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="project-card glass-card">
+                        <h3>TrackMyClass</h3>
+                        <p>Student Attendance Management System API.<br><span class="project-stack">Java, Spring Boot, REST
+                            API</span></p>
+                        <a href="https://github.com/sanketsp1405/TrackMyClassApiProject" class="btn btn-glass">GitHub
+                            Link</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="project-card glass-card">
+                        <h3>AlphaAttire</h3>
+                        <p>Dynamic e-commerce platform for modern shopping.<br><span class="project-stack">HTML, CSS, PHP,
+                            MySQL</span></p>
+                        <a href="https://github.com/sanketsp1405/ReleaseAlphaAttire.git" class="btn btn-glass">GitHub
+                            Link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications-section glass-card">
+        <div class="container">
+            <h2 class="section-title gradient-text">Certifications</h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-4">
+                    <div class="certificate-card">
+                        <h5>Full Stack Development</h5>
+                        <a href="TheKiranAcademy_Sanket_Satish_Patil[1].pdf" target="_blank" class="btn btn-glass">View
+                            Certificate</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="certificate-card">
+                        <h5>Git & GitHub</h5>
+                        <a href="Git-AND-GitHub.pdf" target="_blank" class="btn btn-glass">View Certificate</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="certificate-card">
+                        <h5>Agile Methodology</h5>
+                        <a href="AgileCertificate.pdf" target="_blank" class="btn btn-glass">View Certificate</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="certificate-card">
+                        <h5>Docker</h5>
+                        <a href="DockerCertificate.pdf" target="_blank" class="btn btn-glass">View Certificate</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="certificate-card">
+                        <h5>Java Logic Journey</h5>
+                        <a href="java_logic_journey.pdf" target="_blank" class="btn btn-glass">View Certificate</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="certificate-card">
+                        <h5>Sql</h5>
+                        <a href="Sql-Basics.jpg" target="_blank" class="btn btn-glass">View Certificate</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="certificate-card">
+                        <h5>Rest Api With Java</h5>
+                        <a href="Rest-API-WITH-JAVA.pdf" target="_blank" class="btn btn-glass">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education-section glass-card">
+        <div class="container">
+            <h2 class="section-title gradient-text">Education</h2>
+            <div class="edu-box">
+                <h5>Graduation</h5>
+                <div class="edu-details">
+                    <p><strong>Degree:</strong> B.Sc(Computer Science)</p>
+                    <p><strong>University:</strong> Bharati Vidyapeeth Deemed University,Pune.</p>
+                    <p><strong>Year:</strong> 2025</p>
+                    <p><strong>CGPA:</strong> 8.10</p>
+                </div>
+            </div>
+            <div class="edu-box">
+                <h5>12<sup>th</sup></h5>
+                <div class="edu-details">
+                    <p><strong>Stream:</strong> Science</p>
+                    <p><strong>College:</strong> Lok Jagruti Vidyalay,Rapka.</p>
+                    <p><strong>Year:</strong> 2022</p>
+                    <p><strong>Percentage:</strong> 77.50%</p>
+                </div>
+            </div>
+            <div class="edu-box">
+                <h5>10<sup>th</sup></h5>
+                <div class="edu-details">
+                    <p><strong>School:</strong> Lok Jagruti Vidyalay,Rapka.</p>
+                    <p><strong>Year:</strong> 2020</p>
+                    <p><strong>Percentage:</strong> 85.45%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Call-to-Action -->
+    <section class="contact-section">
+        <div class="container text-center">
+            <h2 class="gradient-text">Let's Build the Future Together!</h2>
+            <a href="https://wa.me/9529941944" class="btn btn-glass btn-lg mt-3">Contact Me</a>
+        </div>
+    </section>
+
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS for animations -->
+    <script src="script.js"></script>
+</body>
+
+</html>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Google Font -->
